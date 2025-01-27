@@ -1,0 +1,17 @@
+#green{
+    width: 189px;
+}
+
+.imagem-top{
+    position: fixed;
+}
+
+.imagem-container{
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    max-width: 600px; /* Limita a largura da imagem */
+    margin: 20px auto; /* Espaçamento ao redor do container */
+    padding: 10px; /* Espaço entre a borda e o conteúdo */
+   display: flex;
+
+}
+

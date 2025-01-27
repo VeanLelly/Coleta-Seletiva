@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.intro, .funcionamento, .importancia {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.funcionamento .steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcionamento .step {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.funcionamento .step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+.tipos-lixo .tipos {
+    display: flex;
+    flex-wrap: wrap;  /* Permite quebra de linha */
+    justify-content: space-between;
+    gap: 20px;  /* Espaçamento entre os itens */
+    margin-top: 20px;
+}
+
+.tipos-lixo .tipo {
+    width: calc(20% - 20px);  /* Ajusta o tamanho com o gap */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;  /* Efeito ao passar o mouse */
+}
+
+.tipos-lixo .tipo:hover {
+    transform: scale(1.05);  /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.tipos-lixo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
