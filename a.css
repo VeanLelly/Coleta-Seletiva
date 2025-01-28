@@ -123,12 +123,13 @@ footer p {
 }
 
 
+
 .tipos-lixo .tipos {
     display: flex;
     flex-wrap: wrap;  /* Permite quebra de linha */
     justify-content: space-between;
     gap: 20px;  /* Espaçamento entre os itens */
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .tipos-lixo .tipo {
@@ -151,3 +152,9 @@ footer p {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+.zona-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+    gap: 10px;
+  }
